@@ -1,0 +1,12 @@
+{
+  "name": "pictPerfectCIMB",
+  "displayName": "pictPerfectCIMB",
+  "expo": {
+    "name": "pictPerfectCIMB",
+    "slug": "pictPerfectCIMB",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
