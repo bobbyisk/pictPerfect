@@ -9,6 +9,7 @@ import TestScreen from "../screens/TestScreen";
 import HomeScreen from "../screens/Home/HomeScreen";
 import PostDetailScreen from "../screens/PostDetail/PostDetailScreen";
 import HomeStack from "./HomeStack";
+import MainTab from "./MainTab";
 
 const Stack = createStackNavigator();
 
@@ -39,8 +40,8 @@ export default () => {
         {userSelector.id ? (
           <Stack.Screen
             options={{ animationEnabled: false }}
-            name="HomeStack"
-            component={HomeStack}
+            name="MainTab"
+            component={MainTab}
           />
         ) : (
           <Stack.Screen name="Auth" component={AuthStack} />

@@ -31,6 +31,7 @@ const SearchBar = (props) => {
         flexDirection: "row",
         alignItems: "center",
         paddingVertical: 6,
+        marginTop: 20
       }}
     >
       <View
